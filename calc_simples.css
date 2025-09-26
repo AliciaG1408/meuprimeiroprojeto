@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#quadrado {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1e90ff, #8a2be2);
+}
+
+#cabecalho {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+}
+
+#cima {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#meio {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#baixo {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#primeiro, #segundo {
+    width: 20%;
+    height: 5vh;
+    text-align: center;
+    background-color: #1e90ff;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+#soma, #sub, #multi, #divi {
+    width: 15%;
+    height: 5vh;
+    text-align: center;
+    background-color: #8a2be2;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+#resultado {
+    width: 50%;
+    height: 5vh;
+    text-align: center;
+    background-color: #8a2be2;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+}
